@@ -1,0 +1,22 @@
+
+            Montage can make mosaics from your own data or from a select set of archives.
+            This page is concerned with using archive data and the following archives/bands 
+            are available:
+
+             SDSS u (3543 Angstrom)      2MASS J (1.235 microns)    WISE W1 (3.4 microns)
+             SDSS g (4770 Angstrom)      2MASS H (1.662 microns)    WISE W2 (4.6 microns)
+             SDSS r (6231 Angstrom)      2MASS K (2.159 microns)    WISE W3 (12  microns)
+             SDSS i (7625 Angstrom)                                 WISE W4 (22  microns)
+             SDSS z (9134 Angstrom)                                
+
+               0.4 arcsec                      1 arcsec            6 arcsec (W4 12 arcsec)    
+
+
+             These archive are uniform and cover all or most of the sky.  The service can
+             also access the DSS plates and the Spitzer data from IRAC and MIPS.  See
+
+                     http://montage.ipac.caltech.edu/applications/ArchiveList/
+
+             for more details on these.
+
+.
