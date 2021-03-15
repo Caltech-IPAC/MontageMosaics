@@ -1,4 +1,4 @@
-
+'''
             This service creates mosaics from the following archived datasets and bands:
 
              SDSS u (3543 Angstrom)      2MASS J (1.235 microns)    WISE W1 (3.4 microns)
@@ -6,32 +6,20 @@
              SDSS r (6231 Angstrom)      2MASS K (2.159 microns)    WISE W3 (12  microns)
              SDSS i (7625 Angstrom)                                 WISE W4 (22  microns)
              SDSS z (9134 Angstrom)                                
+             ----------------------      -----------------------   ----------------------
+                 0.4 arcsec                     1 arcsec           6 arcsec (W4 12 arcsec)    
 
-               0.4 arcsec                      1 arcsec             6 arcsec (W4 12 arcsec)    
+             Spitzer IRAC  3.6um      Spitzer MIPS 24um  ( 6 arcsec      DSS POSS2 Blue
+             Spitzer IRAC  4.5um      Spitzer MIPS 70um  (18 arcsec)     DSS POSS2 Red
+             Spitzer IRAC  5.8um      Spitzer MIPS 160um (40 arcsec)     DSS POSS2 IR
+             Spitzer IRAC 98.0um
+             -------------------      -----------------------------      DSS POSS1 Blue
+                1.2 arcsec                                               DSS POSS1 Red
+                       
+           See:                                                          DSS Quick-V
+           http://montage.ipac.caltech.edu/applications/ArchiveList/     DSS  GSC1
+           and links therein for more details on these datasets.         DSS  GSC2
+                                                                         --------------
+                                                                           1-2 arcsec
 
-	    
-
-	     Spitzer IRAC 3.6um	         Spitzer MIPS 24um  (6 arcsec) 
-	     Spitzer IRAC 4.5um         Spitzer MIPS 70um  (18 arcsec)
-             Spitzer IRAC 5.8um         Spitzer MIPS 160um (40 arcsec)
-             Spitzer IRAC 98.0 um
-	     
-		 1.2 arcsec
-
-
-             DSS POSS2 Blue
-	     DSS POSS2 Red
-             DSS POSS2 IR
-
-	     DSS POSS1 Blue
-	     DSS POSS1 Red
-
-	     DSS Quick-V
-	     DSS  GSC1
-	     DSS  GSC2
-		
- 	       1-2 arcsec
-
-  	See http://montage.ipac.caltech.edu/applications/ArchiveList/ and links
-  	therein for more details on these datasets.
-
+'''
