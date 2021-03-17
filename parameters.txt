@@ -1,14 +1,27 @@
-            The Mosaic function allows setting of several (but not all) the output image file parameters:
+'''
+
+      Users may specify mosaics according to the following parameters: 
 
             location            -- Central object name or coordinates.
-            dataset             -- Archive dataset name and wavelength band. (default '2MASS J')
+            dataset             -- Archive dataset name and wavelength band. (default "2MASS J")
             size                -- Image width/height in degrees. (default: 0.5)
-            scale               -- Pixel scale (default: 1 arcsec for 2MASS, WISE; 0.4 arcsec for SDSS).
+            scale               -- Pixel scale (defaults are e.g. 1 arcsec for 2MASS, WISE; 0.4 arcsec for SDSS).
             coordinateSystem    -- Options include "Equatorial J2000" (default), "Galactic", etc.
-            backgroundMatching  -- Whether or not to apply background matching ('True' is recommended).
+            backgroundMatching  -- Rectify background to a common level across images ("True" is recommended).
             outfile             -- Default: "mosaic.fits".
             workdir             -- Working directory (cleared out for every run).
-            verbose             -- Show (and retain) a list of the processing steps.
+            verbose             -- Show (and retain) a list of the processing steps (recommended for troubleshooting)
+
+      Note: "location" allows for flexibility in entering an object position (which can be either an object name
+             or sky coordinates). The following are all valid values:
+
+            M51
+            00h 42m 44.35s +41d 16m 08.6s  EquJ200 (default)
+            10.68 6 +41.269 EquJ2000 (efault)
+            00h 40m 00.11s +40d 59m 42.9s EquB1950
+            10.0005 +40.995 EquB1950
+            121.174 -21.573 Gal
+            27.849 +33.348 EclJ2000
 
 
-.
+'''

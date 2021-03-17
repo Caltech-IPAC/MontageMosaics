@@ -1,22 +1,25 @@
-
-            Montage can make mosaics from your own data or from a select set of archives.
-            This page is concerned with using archive data and the following archives/bands 
-            are available:
+'''
+            This service creates mosaics from the following archived datasets and bands:
 
              SDSS u (3543 Angstrom)      2MASS J (1.235 microns)    WISE W1 (3.4 microns)
              SDSS g (4770 Angstrom)      2MASS H (1.662 microns)    WISE W2 (4.6 microns)
              SDSS r (6231 Angstrom)      2MASS K (2.159 microns)    WISE W3 (12  microns)
              SDSS i (7625 Angstrom)                                 WISE W4 (22  microns)
              SDSS z (9134 Angstrom)                                
+             ----------------------      -----------------------   ----------------------
+                 0.4 arcsec                     1 arcsec           6 arcsec (W4 12 arcsec)    
 
-               0.4 arcsec                      1 arcsec            6 arcsec (W4 12 arcsec)    
+             Spitzer IRAC  3.6um      Spitzer MIPS 24um  ( 6 arcsec      DSS POSS2 Blue
+             Spitzer IRAC  4.5um      Spitzer MIPS 70um  (18 arcsec)     DSS POSS2 Red
+             Spitzer IRAC  5.8um      Spitzer MIPS 160um (40 arcsec)     DSS POSS2 IR
+             Spitzer IRAC 98.0um
+             -------------------      -----------------------------      DSS POSS1 Blue
+                1.2 arcsec                                               DSS POSS1 Red
+                       
+           See:                                                          DSS Quick-V
+           http://montage.ipac.caltech.edu/applications/ArchiveList/     DSS  GSC1
+           and links therein for more details on these datasets.         DSS  GSC2
+                                                                         --------------
+                                                                           1-2 arcsec
 
-
-             These archive are uniform and cover all or most of the sky.  The service can
-             also access the DSS plates and the Spitzer data from IRAC and MIPS.  See
-
-                     http://montage.ipac.caltech.edu/applications/ArchiveList/
-
-             for more details on these.
-
-.
+'''
