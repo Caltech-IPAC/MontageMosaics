@@ -3,7 +3,7 @@ Jupyter Notebooks for Building Astronomical Mosaics
 
 These Jupyter notebooks use Montage and the MontagePy Python package to build astronomical mosaics.  We plan an extensive set of tutorials, starting with basic mosaicking of data from various astronomical archives.
 
-The simplest way to use these notebooks is to install the Montage package ('pip install MontagePy'), clone the GitHub repo (https://github.com/Caltech-IPAC/MontageMosaics) to your local machine, and open run 'jupyter notebook' in that directory.  Start with the Overview.ipynb notebook, which is really just in introduction to the other pages (of which at the moment there are just two).
+The simplest way to use these notebooks is to install the Montage package ('pip install MontagePy'), clone the GitHub repo (https://github.com/Caltech-IPAC/MontageMosaics) to your local machine, and run 'jupyter notebook' in that directory.  Start with the Overview.ipynb notebook, which is really just in introduction to the other pages (of which at the moment there are just two).
 
 -------------------------------------------------------------
 
