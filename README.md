@@ -1,9 +1,15 @@
- A Jupyter Notebook to Build Astronomical Mosaics With Archived Data Sets
-===========================================================================================
+Jupyter Notebooks for Building Astronomical Mosaics 
+===================================================
 
-Montage  is an Open Source (BSD 3-clause license) toolkit for creating science grade mosaics of astronomical images, and for general astronomical image processing.  Montage can be used as a Linux library, command-line applications on Linux and Windows platforrms, and through Python.
+Montage  is an Open Source (BSD 3-clause license) toolkit for creating science grade mosaics of astronomical images, and for general astronomical image processing.  Montage can be used as a Linux library, as a command-line application on Linux and Windows platforrms, and through Python.
 
-We provide a Jupyter notebook that uses  the Python library to  create and visualize image mosaics according to user specification of location, size and image dateset. The datasets supported are: 2MASS, WISE, SDSS, DSS, Spitzer IRAC and Spitzer MIPS. 
+We provide Jupyter notebooks that use Montage and the MontagePy Python package to build astronomical mosaics from the following archived datasets: 2MASS, WISE, SDSS, DSS, Spitzer IRAC and Spitzer MIPS.  We plan an extensive set of tutorials, starting with basic mosaicking of data from various astronomical archives. The simplest way to use these notebooks is to install the Montage package ('pip install MontagePy'), clone the GitHub repo (https://github.com/Caltech-IPAC/MontageMosaics) to your local machine, and run 'jupyter notebook' in that directory.  
+
+Start with the Overview.ipynb notebook, which provides an introduction to the notebooks and future plans. There are two notebooks provided in this release that presents examples that show to use the service. One ("Basic") create a 3-color mosaic of M31 with WIDE data. The second ("Variations") extends the Basic notebook to show how to change the coordinate system and how to create a mosaic of Spitzer IRAC data.
+
+
+-------------------------------------------------------------
+
 
 Vist the Montage web page at http://montage.ipac.caltech.edu. 
 
